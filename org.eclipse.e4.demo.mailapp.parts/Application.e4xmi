@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_gV854FiREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.demo.mailapp.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_iUmX4FiREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.demo.mailapp.trimmedwindow" label="MailDemo 4.1" width="640" height="480">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_63CRAFlDEeKr_PYB_hW7Lg" elementId="org.eclipse.e4.demo.mailapp.perspectivestack">
+      <children xsi:type="advanced:Perspective" xmi:id="_8GnpkFlDEeKr_PYB_hW7Lg" elementId="org.eclipse.e4.demo.mailapp.perspective" label="MailDemo">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_QBJbIFlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.partsashcontainer.main" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_SjI2wFlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.partstack.0" containerData="40">
+            <children xsi:type="basic:Part" xmi:id="_WIWC4FlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.part.accounts" contributionURI="bundleclass://org.eclipse.e4.demo.mailapp/org.eclipse.e4.demo.mailapp.parts.AccountView" label="Accounts"/>
+          </children>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_TVEC8FlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.partsashcontainer.right" containerData="60">
+            <children xsi:type="basic:PartStack" xmi:id="_Ul_fUFlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.partstack.1">
+              <children xsi:type="basic:Part" xmi:id="_Z1Tc0FlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.part.foldercontent" contributionURI="bundleclass://org.eclipse.e4.demo.mailapp/org.eclipse.e4.demo.mailapp.parts.FolderView" label="Folder content"/>
+            </children>
+            <children xsi:type="basic:PartStack" xmi:id="_VL_vYFlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.partstack.2">
+              <children xsi:type="basic:Part" xmi:id="_eJAtsFlAEeKAPJ3td3a63A" elementId="org.eclipse.e4.demo.mailapp.part.mail" contributionURI="bundleclass://org.eclipse.e4.demo.mailapp/org.eclipse.e4.demo.mailapp.parts.MailView" label="Mail"/>
+            </children>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_z5JgsFomEeKbk-ZAiioWHQ" elementId="org.eclipse.e4.demo.mailapp.menu.0">
+      <children xsi:type="menu:DirectMenuItem" xmi:id="_3qiusFomEeKbk-ZAiioWHQ" elementId="org.eclipse.e4.demo.mailapp.directmenuitem.preferences" label="Preferences" contributionURI="bundleclass://org.eclipse.e4.demo.mailapp/org.eclipse.e4.demo.mailapp.handlers.PreferenceHandler"/>
+      <children xsi:type="menu:MenuSeparator" xmi:id="_7BK4kFqwEeKUfZncQi6yOw" elementId="org.eclipse.e4.demo.mailapp.menuseparator.0"/>
+      <children xsi:type="menu:DirectMenuItem" xmi:id="_7-jt4FqwEeKUfZncQi6yOw" elementId="org.eclipse.e4.demo.mailapp.directmenuitem.exit" label="Exit" contributionURI="bundleclass://org.eclipse.e4.demo.mailapp/org.eclipse.e4.demo.mailapp.handlers.ExitHandler"/>
+    </mainMenu>
+    <trimBars xmi:id="_UDVQUFrDEeK8qNZkEudvmQ" elementId="org.eclipse.e4.demo.mailapp.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_Wl56wFrDEeK8qNZkEudvmQ" elementId="org.eclipse.e4.demo.mailapp.maintoolbar"/>
+    </trimBars>
+  </children>
+  <addons xmi:id="_gV854ViREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_gV854liREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_gV8541iREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_gV855FiREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_gV855ViREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_gV855liREeKL3IgrTJ5q0g" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
