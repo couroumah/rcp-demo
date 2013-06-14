@@ -5,7 +5,7 @@ import org.eclipse.jface.databinding.swt.SWTObservables;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
-
+//---------test commit egit
 public class TestAccountView {
 	public static void main(String[] args) {
 		final Display d = new Display();
